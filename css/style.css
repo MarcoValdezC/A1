@@ -1,0 +1,135 @@
+
+.ejemplo{
+  background-color: green;
+}
+.ajuste{
+  margin-top: 50px;
+}
+.margen{
+  margin-top:100px;
+}
+
+.fondoo{
+  background-color:pink;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste{
+    margin-top: 5px;
+    font-size: small;
+  }
+}
+.fondodos{
+  background: url('../img/header.gif')fixed;
+  padding:220px 0px;
+}
+#accion{
+  color:white;
+}
+
+@media screen and (max-width: 39.9375em) {
+.margen{
+  margin-top: 30px;
+}
+  .fondodos{
+    padding:220px 0px;
+  }
+}
+
+
+@media screen and (max-width: 39.9375em) {
+.hero-section {
+height: 30vh;
+}
+}
+
+@media screen and (max-width: 39.9375em) {
+.menu a{
+  font-size: small;
+}
+}
+
+/*Hero */
+.hero-section {
+  background: url("../img/header.gif")fixed 50% no-repeat;
+  background-size: cover;
+  height: 30vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  
+}
+#footer{
+  font-size: small;
+  background-color: black;
+  color: white;
+}
+#footer a{
+  color:white;
+
+}
+h1,h2,h3{
+  font-family: 'Roboto Mono', monospace;
+}
+h3{
+  text-align: center;
+}
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+/*Termina Hero */
+.fondo{
+  background-color: black;
+}
+.fondo a{
+  color: rgb(91, 192, 250);
+}
+.fondo a:hover{
+  color: cyan;
+}
+/*Portafolio*/
+
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 20px;
+}
+
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
+body{
+  background-color: rgb(240, 71, 197);
+}
+
+.lacolor{
+  color: rgb(243, 8, 8);
+  font-size:medium;
+}
+.table1{
+  text-align: left;
+}
+.right1{
+  text-align:right;
+}
